@@ -2,7 +2,7 @@
 
 📌 Description
 
-This repository contains an online painting website that allows users to create, edit, and save digital paintings. Developed using React.js, this project provides an interactive and user-friendly canvas for artists and hobbyists.
+This repository contains an online painting website during in Internship. Helped to developed using React.js, this project provides an interactive and user-friendly canvas for artists and hobbyists.
 
 🚀 Features
 
@@ -52,7 +52,7 @@ Enjoy a seamless experience across devices, including desktops, tablets, and mob
 
 Clone the repository:
 
-git clone https://github.com/yourusername/painting-website.git
+git clone https://github.com/ankitajha0701/IWP-UI.git
 
 Navigate to the project folder:
 
