@@ -1,4 +1,4 @@
-![Job Portal — Mozilla Firefox 05-03-2025 7 26 48 PM](https://github.com/user-attachments/assets/12d27453-e4a1-4593-a28f-915d54dbc1f1)![Job Portal — Mozilla Firefox 05-03-2025 7 26 48 PM](https://github.com/user-attachments/assets/f08f74cf-3dbd-44c2-a22a-af87ef8aa2bd)🎨 Online Painting Website
+🎨 Online Painting Website
 
 📌 Description
 
@@ -34,7 +34,15 @@ Enjoy a seamless experience across devices, including desktops, tablets, and mob
 
 ![Home Page](https://github.com/user-attachments/assets/f1afeac6-2e72-42a8-aa8b-bd6b250cfc8d)
 )
-
+![About Page](https://github.com/user-attachments/assets/1ac84b69-e15f-47fc-b317-23bc374f64bb)
+)
+)
+![Services](https://github.com/user-attachments/assets/990adc80-fc00-45db-a0c4-a5d822767fbe)
+)
+)
+![Services](https://github.com/user-attachments/assets/55b34377-9794-4072-8fd5-f28274721508)
+)
+)
 
 
 🔧 Prerequisites
