@@ -1,0 +1,148 @@
+.testimonial-section {
+  background-color: #0b5079;
+  padding: 0px 0; /* Decreased padding from 60px to 40px */
+  margin: 0px 0; /* Adjust margin if necessary */
+}
+
+
+.testimonial-section h1 {
+  color: #fff;
+  font-weight: 900;
+}
+
+.testimonial-carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.testimonial-item {
+  padding: 20px; /* Reduced padding inside each testimonial item */
+  margin-bottom: 20px; /* Adjust spacing between testimonial items */
+}
+
+
+.testimonial-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #e10b0b;
+}
+
+.quote-icon {
+  color: #1784e3;
+  margin: 0 5px;
+}
+
+.client-img, .client-img2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.client-img {
+  background-image: url("../Images/testimonial-1.jpg");
+}
+
+.client-img2 {
+  background-image: url("../Images/testimonial-2.jpg");
+}
+
+.ps-3 h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.ps-3 span {
+  font-size: 0.9rem;
+  color: #6c757d;
+  text-transform: uppercase;
+}
+.testimonial-section {
+  background-color: #0b5079;
+  padding: 60px 0;
+}
+
+.testimonial-section h1 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.testimonial-item {
+  width: 80%;
+  max-width: 700px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.quote-icon {
+  color: #1784e3;
+}
+
+.client-img,
+.client-img2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 15px;
+}
+
+.client-img {
+  background-image: url("../Images/testimonial-1.jpg");
+}
+
+.client-img2 {
+  background-image: url("../Images/testimonial-2.jpg");
+}
+
+.carousel-indicators button {
+  background-color: #fff;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 80px; /* Size of the arrow */
+  height: 80px; /* Size of the arrow */
+  background-image: none; /* Remove default background */
+  color: white; /* Set arrow color */
+  font-size: 2rem; /* Increase arrow size */
+}
+
+.carousel-control-prev-icon::before {
+  content: '\2039'; /* Left arrow */
+  color: white; /* Arrow color */
+  font-size: 4.5rem; /* Arrow size */
+}
+
+.carousel-control-next-icon::before {
+  content: '\203A'; /* Right arrow */
+  color: white; /* Arrow color */
+  font-size: 4.5rem; /* Arrow size */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 0.8; /* Slight transparency */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1; /* Full visibility on hover */
+}
+

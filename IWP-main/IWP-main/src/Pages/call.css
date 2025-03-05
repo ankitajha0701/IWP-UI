@@ -1,0 +1,50 @@
+.bg-call-to-action {
+  background: url(../Images/image.png);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+
+.custom-row {
+  margin-right: -110px;
+
+}
+
+.custom-col {
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: right;
+  width: auto;
+}
+
+.custom-heading {
+  color:#0b5079;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.custom-paragraph {
+  color:#0b5079;
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.custom-button {
+  color: #080808;
+  background-color: #0b5079;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #555555;
+}
+.text{
+  color: blueviolet;
+}

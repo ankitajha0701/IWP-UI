@@ -1,0 +1,142 @@
+/* CSS File */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.bg-hero {
+  background-image: url('../Images/hero.jpg'); /* Update this to your actual image path */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.bg-hero .col-lg-8 {
+  color: #fff;
+  padding: 20px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.display-1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #fff;
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+.display-2 {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: #fff;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn-secondary, .btn-outline-secondary {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-secondary {
+  background-color: #0b5079;
+  color: #fff;
+  border: none;
+}
+
+.btn-outline-secondary {
+  background-color: transparent;
+  color: #0b5079;
+  border: 2px solid #0b5079;
+}
+
+.btn-secondary:hover, .btn-outline-secondary:hover {
+  background-color: #fff;
+  color: #0b5079;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .bg-hero {
+    height: 70vh;
+    text-align: center;
+  }
+
+  .display-1 {
+    font-size: 2.5rem;
+  }
+
+  .display-2 {
+    font-size: 1.5rem;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .bg-hero {
+    height: 75vh;
+    padding: 20px 30px;
+  }
+
+  .display-1 {
+    font-size: 3rem;
+  }
+
+  .display-2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .bg-hero {
+    padding: 50px;
+  }
+
+  .display-1 {
+    font-size: 4rem;
+  }
+
+  .display-2 {
+    font-size: 2rem;
+  }
+}

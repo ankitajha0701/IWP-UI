@@ -1,0 +1,93 @@
+.card {
+    width: 300px; /* Fixed width for all cards */
+    height: 450px; /* Fixed height for all cards */
+    margin: 0 auto; /* Center the cards */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-img {
+    width: 100%; /* Ensure the image fills the card width */
+    height: 90%; /* Image height as 60% of the card */
+    object-fit: cover; /* Maintain image aspect ratio and fill the card */
+}
+
+.card-content {
+    background-color: #0b5079;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    height: 10%; /* Content height as 40% of the card */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(135, 165, 245, 0.95);
+    color: #fff;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.card:hover .card-hover {
+    opacity: 1;
+}
+
+.card-hover .social-links {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.card-hover .social-btn {
+    color: #fff;
+    background: #444;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    transition: background 0.3s ease;
+}
+
+.card-hover .social-btn:hover {
+    background: #007bff;
+}
+
+/* Adding consistent gap between slides */
+
+/* Center the heading and add bottom margin */
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem; /* Add spacing between heading and slider */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Adjust the slider dots and add spacing at the bottom */
+.slick-dots {
+    bottom: -20px; /* Move the dots slightly below the slider */
+}
+
+.slick-slider {
+    margin-bottom: 50px; /* Add margin between the slider and the next component */
+}
